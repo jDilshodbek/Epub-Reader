@@ -129,6 +129,11 @@ class PlayerFragment : Fragment(R.layout.fragment_player) {
         mediaSession?.isActive = true
     }
 
+    override fun onDestroy() {
+        super.onDestroy()
+        exoplayer?.release()
+    }
+
 
 }
 

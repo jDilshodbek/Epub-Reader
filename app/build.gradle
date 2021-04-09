@@ -59,7 +59,7 @@ dependencies {
 
 
 
-    implementation 'com.mani:ThinDownloadManager:1.4.0'
+    implementation 'com.mani:ThinDownloadManager:1.2.6'
 
 
 
